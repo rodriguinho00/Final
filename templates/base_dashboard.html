@@ -45,13 +45,13 @@
         <!-- Menu de Livros - visível se tiver permissão -->
         {% if usuario_logado.gerenciar_livros %}
         <a href="{{ url_for('livros_listar') }}"
-          ><i class="bi bi-book me-2"></i> Livros (Vitor)</a
+          ><i class="bi bi-book me-2"></i> Livros (Rodrigo)</a
         >
         {% endif %} 
         <!-- Menu de Empréstimos - visível se tiver permissão -->
         {% if usuario_logado.gerenciar_emprestimos %}
         <a href="{{ url_for('emprestimos_listar') }}"
-          ><i class="bi bi-person-check me-2"></i> Empréstimos (Rhian)</a
+          ><i class="bi bi-person-check me-2"></i> Empréstimos (Rodrigo)</a
         >
         {% endif %}
         <!-- Botão para deslogar do sistema -->
